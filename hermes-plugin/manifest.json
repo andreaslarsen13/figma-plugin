@@ -1,0 +1,25 @@
+{
+  "name": "Hermes: Design-to-Claude Exporter",
+  "id": "hermes-design-to-claude-exporter",
+  "api": "1.0.0",
+  "main": "dist/code.js",
+  "ui": "dist/ui.html",
+  "editorType": ["figma"],
+  "permissions": ["currentuser"],
+  "networkAccess": {
+    "allowedDomains": ["*"]
+  },
+  "menu": [
+    {
+      "name": "Export Design Specs",
+      "command": "export"
+    },
+    {
+      "separator": true
+    },
+    {
+      "name": "Settings",
+      "command": "settings"
+    }
+  ]
+} 
